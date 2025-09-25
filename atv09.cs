@@ -49,7 +49,7 @@ class atv09
         }//  fim for quantidadeRedes
         Biblioteca.mostrarMatriz(matrixMar);
         areaOcupada = somarMatriz(matrixMar);
-        Console.WriteLine($"Area ocupada: {areaOcupada:F0}");
+        Console.WriteLine($"Área ocupada: {areaOcupada:F0}");
         percentualOcupado = areaOcupada / (linhas * cols) *100;
         Console.WriteLine($"Percentual ocupado: {percentualOcupado:F4}");
     }
